@@ -1,0 +1,704 @@
+# MASTER PROMPT — PENGEMBANGAN GAME EDUKASI BERBASIS WEB
+## “MISI PENJAGA EKOSISTEM”
+### Game Simulasi Interaktif dan Petualangan IPAS Kelas V Sekolah Dasar
+
+**Peran Anda**
+
+Bertindaklah sebagai **Senior Web Game Developer, Game Designer, Instructional Designer, dan pakar Pendidikan IPAS Sekolah Dasar**. Anda memiliki keahlian dalam mengembangkan game edukasi berbasis web yang interaktif, stabil, menarik secara visual, sesuai dengan perkembangan kognitif siswa sekolah dasar, dan memiliki dasar pedagogis yang kuat.
+
+Tugas Anda adalah membangun sebuah **game edukasi berbasis web yang benar-benar dapat dimainkan**, bukan sekadar membuat desain antarmuka, gambar konsep, atau prototipe statis.
+
+Game harus menggabungkan:
+1. Simulasi hubungan sebab-akibat dalam ekosistem.
+2. Petualangan dengan misi dan tantangan bertingkat.
+3. Eksplorasi objek melalui interaksi langsung.
+4. Pengambilan keputusan berdasarkan konsep ilmiah.
+5. Umpan balik edukatif berdasarkan tindakan pemain.
+6. Asesmen untuk mengetahui pemahaman siswa setelah bermain.
+
+Seluruh antarmuka, narasi, instruksi, dialog, pertanyaan, dan umpan balik kepada pemain harus menggunakan **Bahasa Indonesia yang baik, komunikatif, dan sesuai untuk siswa kelas V SD**.
+
+---
+
+# 1. IDENTITAS DAN KONSEP GAME
+
+**Nama game:** Misi Penjaga Ekosistem
+
+**Tagline:** “Amati Alam, Temukan Hubungan, Jaga Keseimbangan!”
+
+**Platform:** Web browser, terutama Google Chrome.
+
+**Perangkat utama:** Laptop guru yang ditampilkan melalui proyektor di depan kelas.
+
+**Pengguna:** Siswa kelas V SD, dengan guru sebagai fasilitator.
+
+**Mata pelajaran:** Ilmu Pengetahuan Alam dan Sosial (IPAS).
+
+**Materi utama:** Harmoni dalam Ekosistem.
+
+**Fokus materi:**
+- Komponen biotik dan abiotik.
+- Peran organisme dalam ekosistem.
+- Rantai makanan.
+- Jaring-jaring makanan.
+- Hubungan makan dan dimakan.
+- Dampak perubahan populasi organisme terhadap organisme lain.
+- Upaya menjaga keseimbangan ekosistem.
+
+**Genre:** Educational Simulation, Interactive Adventure, dan Strategy Game.
+
+**Mode permainan:** Mode kelas menggunakan satu laptop dan proyektor. Permainan harus dapat dijalankan guru di depan kelas, sementara siswa mengamati, berdiskusi, memprediksi, memberikan pendapat, dan menentukan pilihan secara bersama-sama.
+
+**Durasi pembelajaran yang ditargetkan:** Sekitar 30–40 menit, dengan opsi guru untuk menghentikan permainan pada setiap tahap diskusi.
+
+**Prinsip utama:** Siswa tidak hanya menghafal definisi, tetapi belajar melalui pengalaman, observasi, percobaan sederhana, pengambilan keputusan, dan refleksi terhadap akibat dari keputusan tersebut.
+
+---
+
+# 2. TUJUAN PEMBELAJARAN
+
+Rancang game agar mendukung siswa untuk mencapai tujuan pembelajaran berikut.
+
+Setelah mengikuti permainan, siswa diharapkan mampu:
+
+1. Mengidentifikasi komponen biotik dan abiotik dalam ekosistem sawah.
+2. Menjelaskan peran produsen dan konsumen dalam hubungan makan dan dimakan.
+3. Membaca serta menyusun rantai makanan menggunakan arah panah yang benar.
+4. Menjelaskan bahwa beberapa rantai makanan saling berhubungan membentuk jaring-jaring makanan.
+5. Memprediksi dampak perubahan jumlah suatu populasi terhadap organisme lain dalam jaring-jaring makanan.
+6. Memilih tindakan yang sesuai untuk membantu menjaga keseimbangan ekosistem dan menjelaskan alasannya.
+
+Tujuan tersebut harus terlihat dalam aktivitas permainan, bukan hanya dicantumkan pada halaman awal.
+
+Setiap misi harus mengukur satu atau beberapa tujuan pembelajaran tersebut.
+
+---
+
+# 3. KONSEP CERITA DAN LATAR PERMAINAN
+
+Buat game berlatar **ekosistem sawah di Indonesia** yang dekat dengan kehidupan sehari-hari siswa.
+
+Pemain berperan sebagai Penjaga Ekosistem Muda yang mendapatkan tugas untuk membantu seorang pemandu bernama **Kak Rimba**.
+
+Suatu hari, ekosistem sawah mengalami beberapa masalah. Jumlah belalang meningkat, tanaman padi mengalami kerusakan, beberapa populasi hewan berubah, dan keseimbangan ekosistem mulai terganggu.
+
+Pemain harus menyelidiki kondisi tersebut melalui tiga misi utama.
+
+**Alur cerita:**
+
+- Misi 1 — Mengenal Ekosistem: pemain menjelajahi sawah dan mengidentifikasi komponen ekosistem.
+- Misi 2 — Merangkai Hubungan: pemain membangun rantai makanan dan jaring-jaring makanan.
+- Misi 3 — Menyelamatkan Keseimbangan: pemain menguji dampak perubahan populasi dan memilih solusi berdasarkan hasil pengamatan.
+
+Setiap misi harus memiliki tujuan, tantangan, interaksi, hasil, dan umpan balik.
+
+Buat transisi antarmisi yang terasa seperti petualangan berkelanjutan. Gunakan narasi singkat dan visual yang sesuai usia siswa, tanpa terlalu banyak teks.
+
+---
+
+# 4. DESAIN VISUAL DAN PENGALAMAN PENGGUNA
+
+Buat tampilan game yang ceria, modern, ramah anak, dan memiliki kualitas visual profesional.
+
+### A. Gaya visual
+
+- Ilustrasi 2D bergaya kartun edukatif.
+- Latar sawah hijau dengan pematang, tanaman padi, air, langit, dan pepohonan.
+- Karakter hewan yang mudah dikenali, tetapi tetap memiliki ciri biologis yang masuk akal.
+- Animasi ringan ketika organisme dipilih, dipindahkan, bertambah, atau berkurang jumlahnya.
+- Warna konsisten dan nyaman dilihat melalui proyektor.
+- Tipografi besar, jelas, dan mudah dibaca dari jarak jauh.
+- Gunakan ikon yang mudah dikenali untuk menu, petunjuk, pengaturan, dan bantuan.
+- Hindari tampilan terlalu ramai, teks panjang, serta dekorasi yang mengganggu fokus belajar.
+
+### B. Tata letak antarmuka
+
+Rancang layar permainan dengan komponen berikut:
+
+1. **Header:** nama misi, indikator progres, dan tombol beranda.
+2. **Area utama:** ilustrasi ekosistem atau papan simulasi.
+3. **Panel instruksi:** penjelasan singkat tentang tantangan yang sedang dihadapi.
+4. **Panel informasi:** menampilkan informasi organisme atau kondisi ekosistem yang sedang dipilih.
+5. **Panel aksi:** tombol untuk menjalankan simulasi, memeriksa jawaban, mengatur ulang, dan melanjutkan.
+6. **Panel umpan balik:** menampilkan penjelasan tentang hasil tindakan pemain.
+7. **Indikator progres:** menampilkan misi yang telah selesai dan pencapaian pemain.
+
+Untuk penggunaan proyektor, prioritaskan elemen berukuran besar dan hindari tombol kecil yang sulit diklik.
+
+### C. Kemudahan penggunaan
+
+- Seluruh interaksi utama harus dapat dilakukan menggunakan mouse.
+- Siswa tidak diwajibkan membuat akun atau memasukkan data pribadi.
+- Jangan menggunakan timer sebagai tekanan utama.
+- Sediakan tombol bantuan dan petunjuk.
+- Sediakan tombol untuk mengulangi simulasi.
+- Pastikan warna bukan satu-satunya cara membedakan status; gunakan label, ikon, atau teks pendukung.
+- Pastikan seluruh tombol memiliki fungsi nyata.
+
+---
+
+# 5. STRUKTUR DAN FITUR PERMAINAN
+
+## Layar 1 — Halaman Pembuka
+
+Tampilkan:
+
+- Judul “Misi Penjaga Ekosistem”.
+- Ilustrasi ekosistem sawah.
+- Karakter pemandu Kak Rimba.
+- Tagline permainan.
+- Tombol “Mulai Petualangan”.
+- Tombol “Cara Bermain”.
+- Tombol “Tujuan Pembelajaran”.
+- Tombol “Mode Guru” atau “Panduan Guru”.
+
+Saat tombol “Mulai Petualangan” diklik, pemain diarahkan ke peta misi.
+
+## Layar 2 — Peta Petualangan
+
+Tampilkan tiga lokasi misi dalam bentuk peta ilustratif:
+
+1. Pos 1: Mengenal Ekosistem.
+2. Pos 2: Merangkai Hubungan.
+3. Pos 3: Menyelamatkan Keseimbangan.
+
+Misi pertama harus dapat diakses langsung. Misi berikutnya dibuka setelah misi sebelumnya selesai.
+
+Tampilkan status setiap misi: belum dimulai, sedang berlangsung, atau selesai.
+
+Sediakan opsi guru untuk membuka semua misi saat diperlukan.
+
+## Layar 3 — Area Simulasi
+
+Area ini merupakan inti permainan.
+
+Tampilkan ekosistem sawah sebagai lingkungan interaktif. Pemain harus dapat memilih organisme, membaca informasinya, menyusun hubungan makan dan dimakan, serta menjalankan simulasi untuk mengamati perubahan yang terjadi.
+
+Area simulasi tidak boleh hanya berupa gambar latar dengan tombol dekoratif. Setiap organisme dan elemen interaktif harus memiliki fungsi yang relevan dengan pembelajaran.
+
+---
+
+# 6. RANCANGAN MISI 1 — MENGENAL EKOSISTEM
+
+**Tujuan:** Siswa dapat mengidentifikasi komponen ekosistem serta peran organisme di dalamnya.
+
+### Aktivitas
+
+Pemain memasuki ekosistem sawah yang menampilkan beberapa organisme dan komponen lingkungan, antara lain:
+
+- Padi.
+- Belalang.
+- Tikus.
+- Katak.
+- Ular.
+- Elang.
+- Air.
+- Tanah.
+- Cahaya matahari.
+
+Saat suatu objek diklik, tampilkan kartu informasi berisi nama, kategori, dan penjelasan singkat.
+
+Contoh:
+
+**Padi**
+- Kategori: Biotik.
+- Peran: Produsen.
+- Informasi: Padi dapat membuat makanannya sendiri melalui fotosintesis.
+
+**Belalang**
+- Kategori: Biotik.
+- Peran: Konsumen.
+- Informasi: Belalang memakan bagian tumbuhan, termasuk daun padi.
+
+**Cahaya matahari**
+- Kategori: Abiotik.
+- Informasi: Cahaya matahari merupakan sumber energi bagi proses fotosintesis.
+
+### Tantangan
+
+Tampilkan pertanyaan interaktif seperti:
+
+- “Manakah yang termasuk komponen biotik?”
+- “Organisme manakah yang berperan sebagai produsen?”
+- “Mengapa tumbuhan penting dalam ekosistem sawah?”
+
+Pemain memilih jawaban melalui klik atau menyeret kartu ke kategori yang sesuai.
+
+### Umpan balik
+
+Jika jawaban benar, tampilkan penjelasan singkat tentang alasan jawaban tersebut benar.
+
+Jika jawaban salah, jangan langsung memberikan penalti besar. Tampilkan petunjuk agar pemain dapat mencoba kembali.
+
+Contoh:
+
+“Coba perhatikan apakah objek tersebut merupakan makhluk hidup atau unsur tak hidup dalam lingkungan.”
+
+Misi selesai ketika pemain berhasil menyelesaikan klasifikasi dan menjawab pertanyaan inti.
+
+---
+
+# 7. RANCANGAN MISI 2 — MERANGKAI HUBUNGAN
+
+**Tujuan:** Siswa dapat membentuk rantai makanan dan memahami bahwa beberapa rantai makanan dapat saling berhubungan membentuk jaring-jaring makanan.
+
+### A. Mekanisme menyusun rantai makanan
+
+Tampilkan beberapa kartu organisme yang dapat dipindahkan menggunakan mouse.
+
+Pemain diminta menyusun rantai makanan yang masuk akal secara ilmiah.
+
+Gunakan contoh berikut sebagai dasar:
+
+- Padi → Belalang → Katak → Ular → Elang.
+- Padi → Tikus → Ular → Elang.
+
+Arah panah harus memiliki arti yang konsisten, yaitu **dari organisme yang dimakan menuju organisme yang memakannya**, sehingga menunjukkan perpindahan energi.
+
+Sediakan keterangan:
+
+“Panah menunjukkan arah perpindahan energi dari makanan menuju pemakannya.”
+
+Jangan membalik arah panah ketika memeriksa jawaban.
+
+### B. Mekanisme jaring-jaring makanan
+
+Setelah pemain berhasil menyusun rantai makanan, minta pemain menghubungkan beberapa rantai makanan tersebut menjadi jaring-jaring makanan.
+
+Hubungan yang diperbolehkan harus berdasarkan model ekosistem sawah yang ditetapkan di dalam game.
+
+Contoh hubungan untuk model sederhana:
+
+- Padi dimakan belalang.
+- Padi dimakan tikus.
+- Belalang dimakan katak.
+- Katak dimakan ular.
+- Tikus dimakan ular.
+- Ular dimakan elang.
+
+Gunakan hubungan tambahan hanya apabila sesuai dengan model ekologi yang telah divalidasi.
+
+Tampilkan hubungan menggunakan garis atau panah yang jelas. Garis tidak boleh menutupi nama organisme atau membuat pemain sulit memahami hubungan antarkomponen.
+
+### C. Pemeriksaan jawaban
+
+Ketika pemain menekan tombol “Periksa Jaring-Jaring”, sistem harus:
+
+1. Memeriksa hubungan yang telah dibuat.
+2. Mengidentifikasi hubungan yang benar.
+3. Menandai hubungan yang belum ditemukan.
+4. Menunjukkan hubungan yang keliru.
+5. Memberikan penjelasan singkat atas kesalahan.
+6. Mengizinkan pemain memperbaiki jawabannya.
+
+Jangan hanya menggunakan pemeriksaan berdasarkan urutan kartu. Periksa hubungan antarpasangan organisme dan arah panahnya.
+
+### D. Tingkat kesulitan
+
+Buat dua tingkat tantangan:
+
+- **Tingkat 1:** Menyusun satu rantai makanan.
+- **Tingkat 2:** Menghubungkan beberapa rantai makanan menjadi jaring-jaring makanan.
+
+Misi selesai ketika pemain mampu membuat hubungan yang memenuhi kriteria kebenaran ilmiah pada model tersebut.
+
+---
+
+# 8. RANCANGAN MISI 3 — MENYELAMATKAN KESEIMBANGAN
+
+**Ini adalah fitur inti game.** Buat mekanisme simulasi sebab-akibat yang benar-benar berfungsi.
+
+Pemain harus dapat mengubah kondisi populasi organisme, menjalankan simulasi, mengamati hasilnya, membandingkan kondisi sebelum dan sesudah, serta menjelaskan kemungkinan penyebab perubahan tersebut.
+
+### A. Tampilan awal simulasi
+
+Tampilkan jaring-jaring makanan yang sudah dibuat pada Misi 2.
+
+Sediakan panel kondisi populasi untuk setiap organisme.
+
+Gunakan indikator sederhana seperti:
+
+- Sangat sedikit.
+- Sedikit.
+- Sedang.
+- Banyak.
+- Sangat banyak.
+
+Apabila menggunakan angka populasi, jelaskan bahwa angka tersebut merupakan **indeks populasi ilustratif untuk simulasi pembelajaran**, bukan data populasi nyata di alam.
+
+Sediakan tombol:
+
+- “Jalankan Simulasi”.
+- “Lihat Dampak”.
+- “Kembalikan ke Kondisi Awal”.
+- “Bandingkan Hasil”.
+
+### B. Skenario A — Populasi ular berkurang
+
+Tampilkan narasi:
+
+“Akibat suatu gangguan lingkungan, jumlah ular di sawah menurun. Apa yang mungkin terjadi pada organisme lain?”
+
+Berikan waktu kepada siswa untuk membuat prediksi sebelum simulasi dijalankan.
+
+Sediakan pilihan prediksi, misalnya:
+
+1. Populasi tikus mungkin meningkat.
+2. Populasi tikus pasti langsung punah.
+3. Tidak akan ada perubahan pada organisme lain.
+
+Setelah pemain memilih, jalankan simulasi.
+
+Pada model sederhana ini, penurunan ular dapat mengurangi tekanan pemangsaan terhadap tikus. Jika kondisi lain tetap sama, populasi tikus dapat meningkat dan berpotensi meningkatkan kerusakan pada tanaman padi.
+
+Namun, jangan menyajikan hasil ini sebagai hukum yang selalu terjadi di alam. Berikan keterangan bahwa perubahan populasi nyata juga dipengaruhi ketersediaan makanan, penyakit, kondisi habitat, reproduksi, dan faktor lain.
+
+### C. Skenario B — Populasi belalang meningkat
+
+Narasi:
+
+“Jumlah belalang meningkat karena kondisi lingkungan yang mendukung. Bagaimana dampaknya terhadap sawah?”
+
+Pemain memprediksi hasil sebelum simulasi.
+
+Dalam model sederhana, peningkatan belalang dapat meningkatkan tekanan terhadap tanaman padi. Katak mungkin memperoleh lebih banyak makanan apabila belalang tersedia dan faktor lainnya tidak membatasi.
+
+Tampilkan dampak yang mungkin terjadi melalui indikator populasi dan ilustrasi kerusakan tanaman.
+
+Jangan menyatakan bahwa peningkatan belalang selalu membuat populasi katak meningkat secara otomatis. Hasil harus mengikuti aturan model yang digunakan.
+
+### D. Skenario C — Populasi tikus meningkat
+
+Narasi:
+
+“Jumlah tikus meningkat. Padi di sawah mulai berkurang. Apa yang perlu diperhatikan oleh penjaga ekosistem?”
+
+Pemain harus:
+1. Memprediksi akibat terhadap padi.
+2. Mengidentifikasi organisme yang memiliki hubungan langsung dengan tikus.
+3. Menjelaskan kemungkinan dampak terhadap organisme lain.
+4. Memilih tindakan pengelolaan yang bertanggung jawab.
+
+### E. Mesin simulasi sebab-akibat
+
+Bangun mekanisme simulasi berbasis aturan yang eksplisit.
+
+Ketentuan teknis:
+
+- Setiap organisme memiliki nilai atau kategori populasi.
+- Setiap organisme memiliki hubungan makan dan dimakan sesuai jaring-jaring makanan.
+- Perubahan populasi dapat memengaruhi organisme yang terhubung langsung.
+- Perubahan dapat merambat ke hubungan lain apabila aturan model mendukungnya.
+- Setiap skenario memiliki kondisi awal yang jelas.
+- Setiap kali simulasi dijalankan, sistem memperbarui indikator berdasarkan aturan yang telah ditentukan.
+- Pemain dapat mengulang simulasi dari kondisi awal.
+- Sistem dapat menyimpan hasil sementara untuk dibandingkan.
+- Hasil simulasi tidak boleh dibuat secara acak tanpa penjelasan.
+- Jangan mengubah hasil hanya untuk membuat pemain memperoleh skor tinggi.
+
+Gunakan model yang sederhana, transparan, dan sesuai tujuan pembelajaran. Apabila model menggunakan angka, tetapkan batas minimum dan maksimum populasi serta aturan perubahan yang konsisten.
+
+Sediakan penjelasan:
+
+“Simulasi ini merupakan model sederhana untuk mempelajari kemungkinan dampak perubahan populasi. Ekosistem nyata lebih kompleks dan dapat dipengaruhi banyak faktor.”
+
+### F. Tahap prediksi dan refleksi
+
+Sebelum menjalankan simulasi, tampilkan pertanyaan:
+
+“Menurutmu, apa yang akan terjadi jika jumlah organisme ini meningkat atau menurun?”
+
+Setelah simulasi, tampilkan:
+
+- Kondisi awal.
+- Perubahan yang dilakukan.
+- Hasil simulasi.
+- Organisme yang terdampak langsung.
+- Organisme yang mungkin terdampak tidak langsung.
+- Penjelasan hubungan sebab-akibat.
+
+Siswa kemudian diminta menjawab:
+
+“Apa perbedaan antara prediksimu dan hasil simulasi?”
+
+“Bagaimana hubungan antara perubahan satu populasi dan keseimbangan ekosistem?”
+
+Bagian ini wajib ada karena tujuan game adalah membangun pemahaman, bukan hanya mengejar skor.
+
+---
+
+# 9. SISTEM PILIHAN DAN SOLUSI EKOLOGIS
+
+Pada akhir Misi 3, tampilkan tantangan:
+
+“Sebagai Penjaga Ekosistem, pilih tindakan yang dapat membantu menjaga keseimbangan sawah.”
+
+Sediakan pilihan seperti:
+
+- Menjaga habitat agar organisme tetap memiliki tempat hidup.
+- Mengurangi penggunaan pestisida yang dapat membahayakan organisme bukan sasaran.
+- Mengamati perubahan populasi sebelum mengambil tindakan.
+- Menjaga hubungan antarmakhluk hidup dalam ekosistem.
+- Menggunakan racun secara sembarangan untuk membasmi semua hewan yang dianggap mengganggu.
+
+Sistem harus mengevaluasi jawaban berdasarkan alasan ilmiah dan dampak ekologis, bukan sekadar label benar atau salah.
+
+Jika siswa memilih tindakan yang berpotensi merusak ekosistem, berikan penjelasan mengapa tindakan tersebut perlu dipertimbangkan kembali.
+
+Tekankan bahwa pengelolaan organisme pengganggu harus mempertimbangkan konteks, keamanan, dan keseimbangan ekosistem, bukan sekadar menghilangkan satu jenis organisme.
+
+---
+
+# 10. SISTEM SKOR DAN PENGHARGAAN
+
+Buat sistem skor yang mendorong eksplorasi dan penalaran.
+
+Komponen skor:
+
+- Identifikasi komponen ekosistem: 20 poin.
+- Penyusunan rantai makanan: 20 poin.
+- Penyusunan jaring-jaring makanan: 25 poin.
+- Prediksi dan interpretasi hasil simulasi: 25 poin.
+- Pemilihan solusi ekologis beserta alasan: 10 poin.
+
+**Total skor: 100 poin.**
+
+Aturan pemberian skor:
+
+1. Skor diberikan berdasarkan ketepatan jawaban dan kriteria yang ditetapkan.
+2. Jawaban yang diperbaiki setelah memperoleh petunjuk tetap mendapat kesempatan memperoleh skor.
+3. Sistem tidak boleh mengurangi skor secara berlebihan hanya karena siswa mencoba kembali.
+4. Berikan penghargaan untuk proses berpikir dan perbaikan jawaban, bukan hanya kecepatan.
+5. Jangan memberikan skor penuh hanya karena tombol diklik tanpa memenuhi kriteria.
+
+Tampilkan penghargaan akhir:
+
+- 90–100: Penjaga Ekosistem Ahli.
+- 75–89: Penjaga Ekosistem Hebat.
+- 60–74: Penjelajah Ekosistem.
+- Di bawah 60: Calon Penjaga Ekosistem.
+
+Kategori tersebut merupakan penghargaan dalam game, bukan nilai rapor atau penetapan kemampuan siswa secara permanen.
+
+Sertakan kalimat motivasi yang mendorong siswa belajar kembali tanpa mempermalukan siswa dengan skor rendah.
+
+---
+
+# 11. SISTEM ASESMEN PEMBELAJARAN
+
+Game harus menyediakan asesmen yang benar-benar mengukur pemahaman siswa.
+
+### A. Asesmen awal
+
+Sediakan 3–5 pertanyaan singkat sebelum misi dimulai.
+
+Tujuan: mengetahui pemahaman awal tentang komponen ekosistem, produsen, konsumen, dan rantai makanan.
+
+Contoh:
+
+“Organisme yang dapat membuat makanannya sendiri disebut ….”
+
+### B. Asesmen selama permainan
+
+Catat hasil dari:
+- Klasifikasi komponen ekosistem.
+- Penyusunan rantai makanan.
+- Penyusunan jaring-jaring makanan.
+- Prediksi dampak perubahan populasi.
+- Pemilihan solusi ekologis.
+
+Berikan umpan balik langsung untuk membantu siswa memahami konsep.
+
+### C. Asesmen akhir
+
+Sediakan 5–8 pertanyaan setelah ketiga misi selesai.
+
+Pertanyaan harus mengukur kemampuan siswa untuk:
+1. Mengidentifikasi komponen ekosistem.
+2. Menjelaskan peran produsen dan konsumen.
+3. Menentukan arah panah rantai makanan.
+4. Menganalisis hubungan dalam jaring-jaring makanan.
+5. Memprediksi kemungkinan dampak perubahan populasi.
+6. Menjelaskan alasan memilih tindakan untuk menjaga ekosistem.
+
+Gunakan kombinasi soal pilihan ganda, mencocokkan hubungan, dan pertanyaan penalaran singkat.
+
+### D. Laporan hasil
+
+Setelah permainan, tampilkan laporan berisi:
+
+- Skor asesmen awal.
+- Skor setiap misi.
+- Skor asesmen akhir.
+- Konsep yang sudah dikuasai.
+- Konsep yang perlu dipelajari kembali.
+- Saran aktivitas tindak lanjut.
+
+Jangan mengklaim peningkatan hasil belajar hanya berdasarkan skor akhir. Jika ingin mengukur peningkatan, bandingkan hasil asesmen awal dan akhir menggunakan instrumen yang sebanding serta kriteria penilaian yang jelas.
+
+Karena game dimainkan bersama menggunakan proyektor, hasil permainan kelompok tidak boleh otomatis dianggap sebagai hasil pemahaman individual setiap siswa. Sediakan opsi kuis individu atau lembar refleksi sebagai tindak lanjut.
+
+---
+
+# 12. MODE GURU DAN FASILITASI KELAS
+
+Tambahkan **Mode Guru** yang dapat diakses dari halaman utama.
+
+Mode ini membantu guru menggunakan game sebagai media pembelajaran, bukan hanya sebagai hiburan.
+
+Fitur Mode Guru:
+
+1. Ringkasan tujuan pembelajaran.
+2. Panduan pelaksanaan permainan selama 30–40 menit.
+3. Pertanyaan pemantik sebelum simulasi.
+4. Titik jeda untuk diskusi kelas.
+5. Penjelasan ilmiah di balik setiap skenario.
+6. Kunci jawaban dan alasan jawaban.
+7. Saran pertanyaan refleksi.
+8. Tombol untuk membuka semua misi.
+9. Tombol untuk mengatur ulang progres.
+10. Panduan tindak lanjut setelah permainan.
+
+### Rekomendasi alokasi waktu
+
+- Pembukaan dan apersepsi: 5 menit.
+- Misi 1: 7 menit.
+- Misi 2: 10 menit.
+- Misi 3: 12 menit.
+- Refleksi dan kesimpulan: 5 menit.
+
+Total: 39 menit.
+
+Guru dapat menghentikan simulasi pada titik-titik penting untuk mengajukan pertanyaan kepada siswa, meminta mereka membuat prediksi, dan mendiskusikan hasil sebelum melanjutkan permainan.
+
+---
+
+# 13. ARSITEKTUR TEKNIS DAN IMPLEMENTASI
+
+Bangun game menggunakan teknologi web yang sesuai dengan kemampuan platform AI pembuat game.
+
+Prioritaskan HTML, CSS, dan JavaScript apabila platform mendukungnya. Jika platform memiliki kerangka kerja internal yang lebih sesuai, gunakan teknologi tersebut tanpa mengurangi fungsionalitas.
+
+### Persyaratan teknis
+
+1. Game harus dapat dimainkan langsung melalui browser.
+2. Antarmuka harus responsif, terutama untuk layar laptop dan proyektor.
+3. Seluruh tombol, kartu, menu, dan interaksi harus berfungsi.
+4. Gunakan struktur kode yang modular dan mudah diperbaiki.
+5. Pisahkan data organisme, hubungan makanan, skenario, pertanyaan, dan aturan simulasi dari komponen antarmuka apabila memungkinkan.
+6. Gunakan satu sumber data untuk hubungan makan dan dimakan agar pemeriksaan jawaban dan simulasi konsisten.
+7. Simpan progres sementara selama sesi permainan.
+8. Sediakan fungsi reset untuk mengembalikan kondisi awal.
+9. Hindari ketergantungan pada server atau API eksternal jika tidak diperlukan.
+10. Jangan mewajibkan login, akun, atau pengumpulan data pribadi siswa.
+11. Jika menggunakan aset eksternal, pastikan aset dapat diakses dan penggunaannya sesuai ketentuan.
+12. Jika koneksi internet terputus, usahakan fitur inti tetap dapat berjalan setelah seluruh aset dimuat, apabila arsitektur platform memungkinkan.
+
+### Pengelolaan data organisme
+
+Buat struktur data yang setidaknya mencakup:
+
+- ID organisme.
+- Nama organisme.
+- Jenis atau kategori.
+- Peran dalam ekosistem.
+- Deskripsi singkat.
+- Hubungan makan dan dimakan.
+- Kondisi populasi awal.
+- Batas minimum dan maksimum populasi simulasi.
+- Aturan dampak terhadap organisme yang terhubung.
+
+Gunakan ID yang konsisten sehingga hubungan tidak bergantung pada teks nama yang mungkin berubah.
+
+### Validasi simulasi
+
+Sebelum game dinyatakan selesai:
+
+- Pastikan seluruh hubungan makan dan dimakan konsisten.
+- Pastikan arah panah tidak terbalik.
+- Pastikan perubahan populasi menghasilkan perubahan sesuai aturan model.
+- Pastikan tombol reset benar-benar mengembalikan semua nilai awal.
+- Pastikan menjalankan ulang skenario menghasilkan perilaku yang konsisten pada kondisi awal yang sama.
+- Pastikan skor sesuai dengan kriteria jawaban.
+- Pastikan seluruh misi dapat diselesaikan.
+- Pastikan tidak ada tombol yang tidak memiliki fungsi.
+
+Jangan menampilkan simulasi seolah-olah merupakan prediksi pasti terhadap ekosistem nyata.
+
+---
+
+# 14. PENGUJIAN KUALITAS GAME
+
+Lakukan pengujian fungsional dan edukatif terhadap game yang dihasilkan.
+
+### Skenario pengujian teknis
+
+**Tes 1 — Navigasi:** seluruh tombol dari halaman utama sampai hasil akhir dapat digunakan.
+
+**Tes 2 — Rantai makanan:** pemain dapat menyusun rantai makanan dengan arah panah yang benar.
+
+**Tes 3 — Jaring-jaring makanan:** sistem dapat membedakan hubungan yang sesuai dengan model dan hubungan yang tidak sesuai.
+
+**Tes 4 — Simulasi:** perubahan populasi ular, belalang, atau tikus memicu hasil yang sesuai dengan aturan yang telah ditentukan.
+
+**Tes 5 — Reset:** seluruh nilai, hubungan, dan progres skenario kembali ke kondisi awal yang benar.
+
+**Tes 6 — Skor:** skor sesuai dengan jawaban dan tidak bertambah hanya karena tombol ditekan berulang kali.
+
+**Tes 7 — Asesmen:** semua pertanyaan dapat dijawab, diperiksa, dan menghasilkan umpan balik.
+
+**Tes 8 — Tampilan:** teks, grafik, garis hubungan, dan tombol tetap terbaca saat ditampilkan melalui proyektor.
+
+**Tes 9 — Stabilitas:** tidak ada kesalahan yang membuat permainan berhenti atau kehilangan progres secara tidak sengaja.
+
+**Tes 10 — Validasi materi:** semua penjelasan ilmiah, hubungan makanan, dan dampak populasi ditinjau agar sesuai dengan model ekosistem yang digunakan.
+
+Jika platform tidak dapat menjalankan pengujian otomatis, lakukan pemeriksaan manual dan jangan menyatakan fitur sudah teruji apabila belum benar-benar dicoba.
+
+---
+
+# 15. STANDAR KUALITAS PENDIDIKAN
+
+Pastikan game memenuhi prinsip berikut:
+
+- Materi sesuai untuk siswa kelas V SD.
+- Konsep sains disampaikan dengan tepat dan tidak menimbulkan miskonsepsi.
+- Bahasa sederhana, tetapi tetap menggunakan istilah ilmiah yang benar.
+- Siswa aktif membuat prediksi, mencoba, mengamati, dan merefleksikan hasil.
+- Setiap tantangan memiliki hubungan langsung dengan tujuan pembelajaran.
+- Umpan balik menjelaskan alasan, bukan hanya memberi label benar atau salah.
+- Game tidak menanamkan anggapan bahwa satu perubahan populasi selalu menghasilkan dampak yang sama dalam setiap ekosistem nyata.
+- Game mendukung diskusi dan kolaborasi kelas.
+- Penghargaan tidak mempermalukan siswa yang belum memahami materi.
+- Asesmen mengukur pemahaman konsep dan penalaran sebab-akibat.
+
+Gunakan pendekatan pembelajaran berbasis pengalaman. Siswa mengalami situasi melalui permainan, merefleksikan hasil, menemukan konsep, kemudian menerapkan pemahaman pada skenario baru.
+
+---
+
+# 16. KETENTUAN HASIL AKHIR
+
+Bangun game secara bertahap, tetapi utamakan menghasilkan versi pertama yang dapat dimainkan secara utuh.
+
+Urutan pengerjaan:
+
+1. Buat halaman pembuka dan peta misi.
+2. Implementasikan Misi 1.
+3. Implementasikan penyusunan rantai makanan dan jaring-jaring makanan pada Misi 2.
+4. Implementasikan mesin simulasi sebab-akibat pada Misi 3.
+5. Tambahkan sistem skor dan asesmen.
+6. Tambahkan Mode Guru.
+7. Lakukan pengujian teknis dan validasi materi.
+8. Perbaiki setiap fitur yang belum berjalan.
+
+Jika platform menghasilkan kode, pertahankan struktur yang mudah dipelihara dan hindari duplikasi logika.
+
+Jika terdapat fitur yang tidak dapat diimplementasikan secara langsung, berikan alternatif yang fungsional. Jangan mengganti mekanisme simulasi dengan gambar statis atau animasi yang tidak memiliki hubungan sebab-akibat.
+
+**Kriteria keberhasilan akhir:**
+
+Game dapat dibuka di browser, dimainkan melalui laptop guru, ditampilkan menggunakan proyektor, digunakan untuk diskusi kelas, memungkinkan siswa memanipulasi kondisi ekosistem, menunjukkan dampak perubahan populasi berdasarkan aturan yang konsisten, serta memberikan umpan balik dan asesmen yang relevan dengan pembelajaran IPAS kelas V.
+
+Mulailah dengan membangun versi game yang lengkap dan fungsional. Setelah implementasi selesai, tampilkan game yang dapat langsung dicoba serta jelaskan cara menjalankannya, fitur yang sudah berfungsi, dan batasan yang masih perlu diperhatikan.
+
+**Prioritas utama: ketepatan konsep ilmiah, mekanisme sebab-akibat yang nyata, interaksi yang berfungsi, dan kualitas pembelajaran. Visual yang menarik harus mendukung keempat prioritas tersebut, bukan menggantikannya.**

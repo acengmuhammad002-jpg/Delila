@@ -1,0 +1,8 @@
+{
+  "name": "Misi Penjaga Ekosistem",
+  "description": "Game simulasi interaktif dan petualangan IPAS kelas V SD tentang harmoni dan keseimbangan ekosistem sawah.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
